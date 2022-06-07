@@ -2,7 +2,7 @@
   <main>
       <div class="container">
           <div class="row">
-                <CardElement v-for="album in Albums" :key="album.index" :album="album" class="col-2"/>
+                <CardElement v-for="album in Albums" :key="album" :album="album" class="col-12 col-md-6 col-lg-2"/>
           </div>
       </div>
   </main>
