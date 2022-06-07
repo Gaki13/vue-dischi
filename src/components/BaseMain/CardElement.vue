@@ -18,5 +18,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-   
+   .card{
+       background-color: #2e3a46;
+       padding: 1rem;
+       text-align: center;
+       margin: 1rem;
+       .Title{
+           color: white;
+       }
+       .Author, .Year{
+           color: #808080;
+       }
+   }
 </style>

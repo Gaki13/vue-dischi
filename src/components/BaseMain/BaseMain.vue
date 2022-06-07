@@ -41,5 +41,6 @@ export default {
       height: calc(100vh - 6.25rem);  
       background-color: #1e2d3b;
       display: flex;
+      align-items: center;
     }
 </style>
